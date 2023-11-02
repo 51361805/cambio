@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(0 0 114);
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+
+}
+
+.tabla {
+  margin-top: 0px;
+  padding-top: 10px;
+  background-color: rgb(0 0 114);
+  border-radius: 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  color: white;
+  height: auto;
+  margin-bottom: 0;
+
+
+}
+
+
+.c-v {
+  width: 100px;
+  margin: 0;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.bandera {
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.uno {
+  width: auto;
+  font-size: 18px;
+  display: flex
+  ;
+  justify-content: center;
+
+}
+
+.adentro {
+  font-size: 15px;
+}
+
+
+
+.tabla-dos {
+  background-color: gray;
+  border-radius: 10px;
+ width: 700px;
+  height: 700px;
+
+}
+
+.int {
+  padding: 5px 15px;
+}
+
+.tit {
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.lado {
+  padding-left: 10px;
+}
+
+#texto {
+  position: absolute;
+  /* Fijar la posición del texto */
+  bottom: -5%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  white-space: nowrap;
+  /* Evitar que el texto se divida en varias líneas */
+  animation: deslizar 13s linear infinite;
+  /* Agregar la animación de deslizamiento */
+}
+
+@keyframes deslizar {
+  0% {
+    left: -100%;
+  }
+
+  /* Iniciar el texto fuera de la pantalla */
+  100% {
+    left: 100%;
+  }
+
+  /* Desplazar el texto hasta el final de la pantalla */
+}
+
+#contenedor {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  overflow-x: hidden;
+}
+
+.fondo{
+  width: 350px;
+ 
+  margin-right: 15px;
+}
+
+
+.mostrador{
+  background-color: blue;
+  position: absolute;
+  color: white;
+  margin-top: 50px;
+ height: 25px;
+ margin-right: 40px;
+ margin-top: 75px;
+ align-items: center;
+ padding: 10px 50px;
+ border-radius: 10px;
+}
+
+
+tr {
+  padding: 10px;
+  height: 50px;
+}
+
+th {
+  padding: 0 100px;
+  font-size: 35px;
+  padding-top: 50px;
+  font-weight: 100;
+
+}
+
+td {
+  padding: 40px 70px;
+  font-size: 35px;
+  margin: 0px 100px !important;
+  font-weight: 100;
+
+}
